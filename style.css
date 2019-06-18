@@ -1,0 +1,47 @@
+body {
+  
+}
+
+footer {
+background-color: grey;
+display: 
+margin-bottom: 0px;
+
+}
+
+#URLs {
+background-color: grey;
+position: static;
+text-align: center;
+text-size: xx-large;
+marin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+#URLs > ul > a > li {
+  text-decoration: none;
+  display: inline;
+  color: white;
+  
+}
+
+.spaninfo {
+padding: 5px;
+background-color: aliceblue;
+margin: auto;
+display: inline-block;
+outline: 1px solid blue;
+border-radius: 10%;
+padding: -10px 10px 10px 10px;
+}
+
+.spaninfo > h2 {
+text-decoration: underline; 
+text-align: center;
+text-size: xx-large;
+}
+
+.spaninfo > p {
+display: auto
+
