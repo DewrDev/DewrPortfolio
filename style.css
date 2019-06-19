@@ -1,74 +1,91 @@
 body {
-  
+    
 }
 
-footer {
-background-color: grey;
-display: block;
-bottom: 0;
-width: 100%;
-position: fixed;
+p {
+    font-family: "sans-serif";
+ }
+
+#footer {
+    background-color: grey;
+    display: block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5%;
+    position: fixed;
+    color: pink;
+}
+
+#footer > p {
+    color: black;
 
 }
 
 #URLs {
-position: static;
-text-align: center;
-font-size: xx-large;
-margin-left: 0px;
-margin-right: 0px;
-margin-top: 0px;
+    position: static;
+    text-align: center;
+    font-size: xx-large;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
 }
 
 #URLs > ul > a > li {
-  text-decoration: none;
-  display: inline;
-  color: black;
-  font-family: "monospace" "sans-serif";
-  font-weight: bold;
-  letter-spacing: 3px;
+    text-decoration: none;
+    display: inline;
+    color: black;
+    font-family: "monospace" "sans-serif";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.spanwrapper {
+    text-align: center;
 }
 
 .spaninfobox {
-padding: 5px;
-background-color: aliceblue;
-margin: auto;
-display: inline-block;
-border-radius: 10%;
-padding: -10px 10px 10px 10px;
+    padding: 5px;
+    background-color: aliceblue;
+    margin: auto;
+    left: 0em;
+    right: 0em;
+    display: inline-block;
+    border-radius: 10%;
+    padding: -10px 10px 10px 10px;
 }
 
-.spaninfo > h2 {
-text-decoration: underline; 
-text-align: center;
-text-size: xx-large;
+.spaninfobox > h2 {
+    text-decoration: underline; 
+    text-align: center;
+    font-size: large;
 }
 
-.spaninfo > p {
-display: auto
-
+.spaninfobox > p {
+    display: auto;
+    font-size: small;
 }
 
 a:link {
     text-decoration: none;
     color: blue;
-    z-index: 1
+    z-index: 1;
 }
 
 a:visited {
     text-decoration: underline;
     color: #f0f;
-    z-index: 1
+    z-index: 1;
 }
 
 a:hover {
     text-decoration: underline;
     color: pink;
-    z-index: 1
+    z-index: 1;
 }
 
 a:active {
     text-decoration: underline;
     color: purple;
-    z-index: 1
+    z-index: 1;
 }
