@@ -1,5 +1,9 @@
+/* ---------------------------------------------------------Fonts */
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
+
 body {
-    
+    background-color: #fff;
 }
 
 p {
@@ -24,11 +28,19 @@ p {
 
 #URLs {
     position: static;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1px;
     text-align: center;
     font-size: xx-large;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
+    margin-top: 25px;
+    text-decoration: none; 
+}
+
+    
+#URLs a {
+    text-decoration: none; 
 }
 
 #URLs > ul > a > li {
@@ -66,26 +78,25 @@ p {
     font-size: small;
 }
 
-a:link {
-    text-decoration: none;
-    color: blue;
-    z-index: 1;
-}
+/* ---------------------------------------------------------Links */
 
-a:visited {
-    text-decoration: underline;
-    color: #f0f;
-    z-index: 1;
+a:link {
+    
 }
 
 a:hover {
-    text-decoration: underline;
-    color: pink;
-    z-index: 1;
+
 }
 
 a:active {
-    text-decoration: underline;
-    color: purple;
-    z-index: 1;
+    background-color: #dd9933
 }
+
+.dropdown {
+    opacity: 0;
+}
+
+.portfolio:hover .dropdown {
+    opacity: 1;
+}
+
