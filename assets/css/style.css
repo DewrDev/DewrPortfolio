@@ -1,6 +1,6 @@
 /* ---------------------------------------------------------Fonts */
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 body {
     background-color: #fff;
@@ -28,7 +28,7 @@ p {
 
 /* ---------------------------------------------------------Navigation */
 
-#URLs {
+#navbar {
     position: static;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 1px;
@@ -44,11 +44,11 @@ p {
     box-shadow: 2px 2px 5px rgb(224, 169, 178);
 }
 
-#URLs a {
+#navbar a {
     text-decoration: none; 
 }
 
-#URLs > ul > a > li {
+#navbar > ul > a > li {
     text-decoration: none;
     display: inline;
     color: black;
@@ -85,7 +85,10 @@ p {
     font-size: small;
 }
 
+/* ---------------------------------------------------------Buttons */
+
 .greybtn {
+    
 }
 
 .greybtn > p {
@@ -94,9 +97,11 @@ p {
     color: black;
     margin: auto;
     text-decoration: none;
+    text-align: center;
     width: 144px;
     top: 50%;
     bottom: 50%;
+}
 
 /* ---------------------------------------------------------Useful things? */
 

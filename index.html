@@ -15,24 +15,29 @@
     span {
       font-family: "sans-serif";
       text-align: center;
-      transform: translate(0px);
+      /* margin: -100px 0 0 -150px; */
+      left: 0%;
+      right: 0%;
+      top: 37%;
       display: block;
-      margin: 0 auto;
       color: white;
-      padding: 25px;
       position: absolute;
-      width: 300px;
-      top: 50%;
-      left: 50%;
-      margin: -100px 0 0 -150px;
-      border-radius: 10px;
       z-index: 3;
+      }
+      .head {
+        font-family: 'Work Sans', sans-serif;
+        letter-spacing: 3px;
+        font-weight: bolder
+      }
+      .head2 {
+        font-size: 50px
       }
   </style>
 </head>
 <body>
   <div style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); z-index: 2; opacity: .65; position: absolute;"></div>
-  <div id="carouselExampleSlidesOnly" class="carousel slide absolute" data-ride="carousel" style="z-index: 1;">
+  <!-- Bootstrap carousel  -->
+  <div id="carouselExampleIndicators" class="carousel slide absolute" data-ride="carousel" style="z-index: 1;"> 
     <div class="carousel-inner">
       <div class="carousel-item active">
           <img src="https://i.imgur.com/9UeZaYu.png" class="d-block w-100" alt="...">
@@ -45,16 +50,24 @@
       </div>
     </div>
   </div>
+  <!-- //Bootstrap carousel  -->
   <span class="div absolute">
-      <h1>Drew Twells</h1>
-      <p>3D Modeller and & Web Developer</p>
+      <h3 class="head">DREW TWELLS</h3>
+      <h1 class="head head2">3D Modeller & Web Developer</h1>
       <p>I don't know C++, but maybe I will some day</p>
-      <p>I do games development stuff sometimes</p>
+      <p style="font-size: 15px;">I do games development stuff sometimes</p>
       <a href="home.html">
         <div class="greybtn">
           <p>CONTINUE</p>
         </div>
       </a>
+      <!-- Bootstrap Carousel buttons -->
+      <ol class="carousel-indicators" style="z-index: 3; position: relative; top: 15px;">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <!-- //Bootstrap Carousel buttons -->
   </span>
   <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
