@@ -85,13 +85,18 @@ p {
     font-size: small;
 }
 
-.greybtn > p {
-    background-color: rgb(97, 97, 97);
-    padding: 10px;
-    color: white;
-    margin: auto;
-    text-decoration: none; 
+.greybtn {
 }
+
+.greybtn > p {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    color: black;
+    margin: auto;
+    text-decoration: none;
+    width: 144px;
+    top: 50%;
+    bottom: 50%;
 
 /* ---------------------------------------------------------Useful things? */
 
