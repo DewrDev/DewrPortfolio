@@ -26,19 +26,24 @@ p {
 
 }
 
+/* ---------------------------------------------------------Navigation */
+
 #URLs {
     position: static;
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 1px;
     text-align: center;
     font-size: xx-large;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin: auto;
     margin-top: 25px;
-    text-decoration: none; 
+    text-decoration: none;
+    background-color: pink;
+    width: 950px;
+    border-radius: 10px;
+    display: block;
+    box-shadow: 2px 2px 5px rgb(224, 169, 178);
 }
 
-    
 #URLs a {
     text-decoration: none; 
 }
@@ -52,8 +57,10 @@ p {
     letter-spacing: 3px;
 }
 
+/* ---------------------------------------------------------Page Content */
 .spanwrapper {
     text-align: center;
+    padding-top: 25px;
 }
 
 .spaninfobox {
@@ -78,6 +85,21 @@ p {
     font-size: small;
 }
 
+.greybtn > p {
+    background-color: rgb(97, 97, 97);
+    padding: 10px;
+    color: white;
+    margin: auto;
+    text-decoration: none; 
+}
+
+/* ---------------------------------------------------------Useful things? */
+
+.absolute {
+    position: absolute;
+    float: none;
+}
+
 /* ---------------------------------------------------------Links */
 
 a:link {
@@ -93,10 +115,11 @@ a:active {
 }
 
 .dropdown {
-    opacity: 0;
+    opacity: 1;
+    color: black;
 }
 
 .portfolio:hover .dropdown {
-    opacity: 1;
+    opacity: 0;
 }
 
