@@ -85,6 +85,11 @@ p {
     font-size: small;
 }
 
+.infoimg img {
+    width: 100px;
+    height: 100px;
+}
+
 /* ---------------------------------------------------------Buttons */
 
 .greybtn {
