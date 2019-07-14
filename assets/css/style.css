@@ -98,7 +98,7 @@ p {
 /* ---------------------------------------------------------Buttons */
 
 .greybtn {
-    
+
 }
 
 .greybtn > p {
@@ -143,3 +143,6 @@ a:active {
     opacity: 0;
 }
 
+.greybtn:hover .greybtn > p {
+    background-color: grey;
+}
