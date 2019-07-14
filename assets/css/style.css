@@ -65,13 +65,17 @@ p {
 
 .spaninfobox {
     padding: 5px;
-    background-color: aliceblue;
+    background-color: rgb(197, 197, 197);
     margin: auto;
     left: 0em;
     right: 0em;
     display: inline-block;
-    border-radius: 10%;
+    border-radius: 1%;
     padding: -10px 10px 10px 10px;
+    max-width: 300px;
+    -webkit-box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.12);
+    box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.12);
 }
 
 .spaninfobox > h2 {
@@ -88,6 +92,7 @@ p {
 .infoimg img {
     width: 100px;
     height: 100px;
+
 }
 
 /* ---------------------------------------------------------Buttons */
