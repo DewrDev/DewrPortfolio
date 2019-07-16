@@ -4,12 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href=""/>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="assets\css\style.css" rel="stylesheet" type="text/css" />
   <title>Drew Twells Portfolio and Resume</title>
   <style>
     body {
       overflow: hidden;
+      
     }
     
     span {
@@ -34,15 +37,28 @@
       }
       .static {
         position: static;
+        height: 100%;
         /* background-position: 50% 50%; */
         /* background-size: cover; */
+      }
+      .footer {
+        display: inline-block;
+        position: fixed;
+        color: rgb(175, 175, 175);
+        z-index: 3;
+        bottom: 1%;
+        text-align: center;
+        font-size: 40px;
+        background-color: #00000000;
+        right: 0;
+        left: 0;
       }
   </style>
 </head>
 <body>
   <div style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); z-index: 2; opacity: .65; position: absolute;"></div>
   <!-- Bootstrap carousel  -->
-  <div id="carouselExampleIndicators" class="carousel slide absolute static" data-ride="carousel" style="z-index: 1;"> 
+  <div id="carouselExampleIndicators" class="carousel slide absolute static" data-ride="carousel" style="z-index: 1; height: auto; width: 100%;"> 
     <div class="carousel-inner">
       <div class="carousel-item active">
           <img src="https://i.imgur.com/9UeZaYu.png" class="d-block w-100" alt="...">
@@ -74,6 +90,20 @@
         </ol>
         <!-- //Bootstrap Carousel buttons -->
   </span>
+  <div class="footer">
+    <a href="http://www.reddit.com/u/thetalkingkeyboard" target="_blank" class="greybtn">
+      <i class="fa fa-reddit ico"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/drewbtwells" target="_blank" class="greybtn">
+      <i class="fa fa-linkedin ico"></i>
+    </a>
+    <a href="https://github.com/TalkingKeyboard" target="_blank" class="greybtn">
+      <i class="fa fa-github ico"></i>
+    </a>
+    <a href="https://www.youtube.com/channel/UCj4Y_GiboL_kHhpEk3dDahw?" target="_blank" class="greybtn">
+      <i class="fa fa-youtube ico"></i>
+    </a>
+  </div>
   <!-- SCRIPTS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
