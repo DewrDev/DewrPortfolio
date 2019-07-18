@@ -29,3 +29,5 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 [Google Fonts](https://fonts.google.com) for finding and importing custom fonts into my project
 
 [FontAwesome](https://fontawesome.com/) for Branding icons (Github; Linkedin etc.)
+
+[Mycolorspace]{https://mycolor.space/?hex=%23FFC0CB&sub=1) was used to generate a good color pallete for use across the whole site
