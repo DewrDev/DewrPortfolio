@@ -3,22 +3,30 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
 
 body {
-    background-color: #A78DAC;
+    background-color: white;
+    overflow: auto;
+    font-family: monospace;
 }
 
 p {
-    font-family: "sans-serif";
+    font-family: "monospace" sans-serif;
  }
 
 #footer {
-    background-color: #2F4858;
-    display: block;
+    background-color: #7A7694;
     bottom: 0;
-    left: 0;
     width: 100%;
     height: 5%;
     position: fixed;
-    color: pink;
+    color: white;
+}
+
+#footersocial {
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    margin: 5px;
+    right: 0;
 }
 
 /* ---------------------------------------------------------Navigation */
@@ -29,11 +37,11 @@ p {
     text-align: center;
     font-size: xx-large;
     margin: auto;
-    margin-top: 25px;
+    /* margin-top: 25px; */
     text-decoration: none;
     background-color: #ffc0cb;
-    width: 950px;
-    border-radius: 10px;
+    width: 100%;
+    /* border-radius: 10px; */
     box-shadow: 2px 2px 5px rgb(224, 169, 178);
 }
 
@@ -45,13 +53,17 @@ p {
     font-weight: bold;
     letter-spacing: 3px;
     text-shadow: 1px 2px 2px rgba(81,95,120,1);
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 /* ---------------------------------------------------------Page Content */
 .spanwrapper {
-    text-align: center;
+    width: 100%;
     padding-top: 25px;
     position: relative;
+    display: block;
+    text-align: center;
 }
 
 .spaninfobox {
@@ -65,21 +77,24 @@ p {
     padding: -10px 10px 10px 10px;
     -webkit-box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.12);
     -moz-box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.12);
-    box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.12);
+    box-shadow: 10px 10px 11px -6px rgba(0,0,0,0.25);
     width: 100%;
     height: 100%;
     max-height: 350px;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
 }
 
 .infowrapper {
     padding: 5px;
-    margin: auto;
+    margin: 0 auto;
     left: 0em;
     right: 0em;
     display: inline-block;
     border-radius: 1%;
     padding: -10px 10px 10px 10px;
     max-width: 500px;
+    text-align: center;
 }
 
 .spaninfobox > h2 {
@@ -96,7 +111,7 @@ p {
 .infoimg img {
     width: 100%;
     height: 100%;
-
+    border-radius: 5px 5px 0px 0px;
 }
 
 /* ---------------------------------------------------------Buttons */
@@ -111,16 +126,16 @@ p {
     color: black;
     margin: auto;
     width: 144px;
+    font-size: 15px;
     transition-duration: .5s;
 }
 
 .greybtn p:hover {
     background-color: pink;
-    outline-width: 1px;
-    outline-offset: 1px;
-    outline-style: auto;
-    outline-color: black;
     transition-duration: .5s;
+    border-radius: 10px;
+    box-shadow: 0 0 0 1pt black
+    
 }
 
 .ico {
@@ -150,7 +165,7 @@ p {
 
 #navbar>ul>a>li:hover {
     text-shadow: 2px 3px 2px #2F4858;;
-    color: rgb(88, 140, 173);;
+    color: rgb(88, 140, 173);
 }
 
 a:link {
@@ -162,7 +177,7 @@ a:hover {
 }
 
 a:active {
-    background-color: #dd9933
+    color: aqua;
 }
 
 
@@ -170,3 +185,22 @@ a:active {
     opacity: 0;
 }
 
+/* ---------------------------------------------------------MediaQuery Breakpoints */
+
+@media (max-width: 1006px) {
+    .spanwrapper {
+      
+    }
+  }
+@media (max-width: 1006px) {
+    #navbar {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1006px) {
+    #footer {
+        position: relative;
+        height: 50px;
+        margin-top: 15px;
+    }
+}
