@@ -30,4 +30,9 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 
 [FontAwesome](https://fontawesome.com/) for Branding icons (Github; Linkedin etc.)
 
-[Mycolorspace]{https://mycolor.space/?hex=%23FFC0CB&sub=1) was used to generate a good color pallete for use across the whole site
+[Mycolorspace]{https://mycolor.space/?hex=%23FFC0CB&sub=1) was used to generate a good color pallete for use across the whole site.
+
+
+**// Helpful Stuff //**
+
+[CSS Media Query OR statement](https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height)

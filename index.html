@@ -61,23 +61,106 @@
           background: no-repeat center center scroll;
           background-size: cover;
         }
-        
-        ol.carousel-indicators {
-          position: relative;
-          top: 50%;
-          bottom: ;
+
+        .undertext {
+          font-size: 15px;
+        }
+
+        @media screen and (max-width: 811px) and (max-height: 700px) {
+          .head {
+            font-size: 4vw;
+          }
+          .head2 {
+            font-size: 5vw;
+          }
+          span > p {
+            font-size: 2.5vw;
+          }
+          .undertext {
+            font-size: 2vw;
+          }
+          .ico {
+            font-size: 5vw;
+          }
+        }
+
+        @media screen and (max-width: 500px) and (max-height: 700px) {
+          .head {
+            font-size: 4vw;
+          }
+          .head2 {
+            font-size: 5vw;
+          }
+          span > p {
+            font-size: 3vw;
+          }
+          .undertext {
+            font-size: 2.5vw;
+          }
+          .ico {
+            font-size: 5vw;
+          }
+        }
+
+        /* @media screen and (max-height: 500px) {
+          .head {
+            font-size: 2.5vw;
+          }
+          .head2 {
+            font-size: 3.5vw;
+          }
+          span > p {
+            font-size: 1.5vw;
+          }
+          .undertext {
+            font-size: 1.3vw;
+          }
+          .ico {
+            font-size: 3vw;
+          }
+        } */
+
+        @media screen and (max-height: 500px) and (min-width: 1000px) {
+          .head {
+            font-size: 1.5vw;
+          }
+          .head2 {
+            font-size: 2.5vw;
+          }
+          span > p {
+            font-size: 1vw;
+          }
+          .undertext {
+            font-size: 0.75vw;
+          }
+          .ico {
+            font-size: 2vw;
+          }
+        }
+
+        @media screen and (max-width: 1047px) and screen and (max-height: 700px) {
+          .head {
+            font-size: 3vw;
+          }
+          .head2 {
+            font-size: 4vw;
+          }
+          span > p {
+            font-size: 1.5vw;
+          }
+          .undertext {
+            font-size: 1.25vw;
+          }
+          .ico {
+            font-size: 3vw;
+          }
         }
   </style>
 </head>
 <body>
   <div style="width: 100%; height: 100%; background-color: rgb(0, 0, 0); z-index: 2; opacity: .65; position: fixed; object-fit: contain;"></div>
   <!-- Bootstrap carousel  -->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-      <!-- <ol class="carousel-indicators absolute">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol> -->
+  <div id="carouselExample" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner" role="listbox">
         <div class="carousel-item active" style="background-image: url('https://i.imgur.com/QmGfxRA.png')"></div>
         <div class="carousel-item" style="background-image: url('https://i.imgur.com/ruHozy2.png')"></div>
@@ -89,18 +172,14 @@
       <h3 class="head">DREW TWELLS</h3>
       <h1 class="head head2">3D Modeller & Web Developer</h1>
       <p>I don't know C++, but maybe I will some day</p>
-      <p style="font-size: 15px;">I do games development stuff sometimes</p>
+      <p class="undertext">I do games development stuff sometimes</p>
       <a href="home.html">
         <div class="greybtn">
           <p>CONTINUE</p>
         </div>
       </a>
-        <ol class="carousel-indicators absolute">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
   </span>
+  <!-- Footer -->
   <div class="footer">
     <a href="http://www.reddit.com/u/thetalkingkeyboard" target="_blank" class="ico">
       <i class="fa fa-reddit"></i>
