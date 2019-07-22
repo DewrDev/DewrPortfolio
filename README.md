@@ -26,6 +26,8 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 
 [Bootstrap Carousel](https://getbootstrap.com/docs/4.3/components/carousel/) for index page image slideshow.
 
+[Bootstrap Modal](https://getbootstrap.com/docs/4.0/components/modal/) Used in Blender page to expand images to almost full-screen when clicked on
+
 [Google Fonts](https://fonts.google.com) for finding and importing custom fonts into my project
 
 [FontAwesome](https://fontawesome.com/) for Branding icons (Github; Linkedin etc.)

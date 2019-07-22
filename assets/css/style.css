@@ -120,6 +120,27 @@ p {
     box-shadow: none;
     text-align: left;
 }
+
+.modalimg>img {
+    width: auto;
+    height: 95%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.blendertitle {
+    text-align: center;
+}
+
+.blendertitle > p {
+    color: rgba(83, 83, 83, 0.911);
+}
+
+.blendertitle > code {
+    color: rgba(83, 83, 83, 0.911);
+}
 /* ---------------------------------------------------------Buttons */
 
 .greybtn {
@@ -142,6 +163,19 @@ p {
     border-radius: 10px;
     box-shadow: 0 0 0 1pt black
     
+}
+
+.imgbtn {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-style: none;
+    vertical-align: text-top;
+}
+
+.imgbtn:hover {
+    outline: pink;
+    outline-style: double;
 }
 
 /* ---------------------------------------------------------Icons */
