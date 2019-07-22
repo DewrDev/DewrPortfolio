@@ -36,3 +36,7 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 **// Helpful Stuff //**
 
 [CSS Media Query OR statement](https://stackoverflow.com/questions/11404744/css-media-queries-max-width-or-max-height)
+
+[CSS Media Query AND statement](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+[Text scaling relative to viewport width or height for Media Queries](https://css-tricks.com/viewport-sized-typography/)

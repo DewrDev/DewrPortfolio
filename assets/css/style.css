@@ -107,6 +107,19 @@ p {
     border-radius: 5px 5px 0px 0px;
 }
 
+.blenderimg {
+    max-width: 350px;
+}
+
+.blenderimg >.infoimg>img {
+    border-radius: 0px;
+}
+
+.blenderinfo {
+    background-color: #00000000;
+    box-shadow: none;
+    text-align: left;
+}
 /* ---------------------------------------------------------Buttons */
 
 .greybtn {
@@ -187,11 +200,7 @@ a:active {
     height: auto;
   }
 }
-@media (max-width: 1027px) {
-    #navbar {
 
-    }
-}
 @media screen and (max-width: 1027px), screen and (max-height:630px) {
     #footer {
         bottom: 0;
