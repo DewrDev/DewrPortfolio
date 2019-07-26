@@ -8,7 +8,11 @@ At the time of writing, the project is frontend-only and does not contain any bu
 
 # Pages//UX
 
-My goal for the overall design of my site was to make accessing information relatively easy, whilst also presenting it in a way that (hopefully) represents my well; or at least looks somewhat stylish. Making something visually appealing has never been my strong point.
+My goal for the overall design of my site was to make accessing information relatively easy, whilst also presenting it in a way that (hopefully) represents my well; or at least looks somewhat stylish. Making something visually appealing has never been my strong point. The color scheme was picked from a shade of pink that I picked that I felt was also light, welcoming and fun.
+
+For my target audience, I generally wanted to make the browsing experience simple and easy, whilst also avoiding the whole "smart and corporate" look. I encorporated the Carousel on my landing page as a start to this; to introduce myself whilst also showing some of my previous creations in the background.
+
+At the moment, I don't intend on using my portfolio site to advertise myself to employers, as my intent is more so to gain commission-based work for both web development and 3D Modelling. I plan to add in a Games Development section in the future, but this would most likely only exist to further show off my 3D Modelling skills.
 
 ## Index:
 
@@ -22,7 +26,11 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 
 ## Blender//3D Modelling
 
-Probably the crown jewl for me; this page is
+Probably the crown jewl for me; this page is contains the marjoity of the 3D models and scenes that I've created in Blender so far. 
+
+## Web Development
+
+I'll confess. I didn't get this page done in time at all, and therefore it does not exist. I didn't want to include something so incomplete and empty, so I thought it'd be best if it just didn't exist for now.
 
 # Technologies//Resources
 
@@ -37,6 +45,8 @@ Probably the crown jewl for me; this page is
 # Features
 
 The Index page incorporates [Boostrap's Carousel](https://getbootstrap.com/docs/4.3/components/carousel/) feature to have scrolling images in the background
+
+The navbar encorporates a hover dropdown for the Portfolio text; uses this sample from [w3schools.com](https://www.w3schools.com/howto/howto_css_dropdown.asp)
 
 The Blender page's images all incorporate a [Bootstrap Modal](https://getbootstrap.com/docs/4.0/components/modal/) button for toggling an expanded version of the image that is clikcked on.
 
@@ -61,6 +71,8 @@ This project was deployed using GIT (Gitkraken client) and Github pages, which a
 [Embedding an image into an input button](https://stackoverflow.com/questions/8683528/embed-image-in-a-button-element)
 
 [Tinyjpg for compressing images without a discernible loss in quality](https://tinyjpg.com/)
+
+[Caesium open source Image compressor for compressing large images with fine control](https://github.com/Lymphatus/caesium-image-compressor)
 
 [Anthony O' Brien's User Centric Resource Pack, which provided me with various resources and useful information when working on this project](https://github.com/auxfuse/userCentricResourcePack)
 

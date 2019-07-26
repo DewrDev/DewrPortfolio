@@ -17,7 +17,25 @@
       position: relative;
       height: 250px;
       background-color: grey;
+      color: white;
+      text-align: center;
+      box-shadow: inset 0px 0px 10px 0px black;
     }  
+    
+    .contactcontent {
+      /*  */
+    }
+
+    .contactcontent > a {
+      color: white;
+    }
+    .contactcontent > a:hover {
+      color: rgb(243, 184, 255);
+    }
+    
+    p {
+      margin: 0;
+    }
   </style>
 </head>
 
@@ -28,10 +46,13 @@
       <a href="home.html">
         <li>Home</li>
       </a>
-      <a href="portfolio.html">
-        <li>Portfolio</li>
-      </a>
-
+      <div class="dropdown">
+        <button class="dropbtn">Portfolio</button>
+        <div class="dropdown-content">
+          <a href="blender.html">Blender</a>
+          <a href="web_development.html">Web Development</a>
+        </div>
+      </div>
       <a href="contact.html">
         <li>Contact</li>
       </a>
@@ -43,8 +64,23 @@
   <!-- //Navigation -->
 
   <!-- Page Content -->
-  <div class="contactinfo"></div>
-  <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScj68QSOS8Nad3TlnDBCurH6TCiUrwxmgJ4-ApC35h5-Y6QaA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0" style="display: inline-block">Loading...</iframe>
+  <div class="contactinfo">
+    <div class="contactcontent">
+      <h1>Drew Twells</h1>
+      <a href="mailto:drew.twells@yahoo.co.uk">Email: drew.twells@yahoo.co.uk</a>  
+      <p>Phone Number: 07951656033</p>
+      <p>Located: Nottingham, United Kingdom</p>
+  
+      <h4>Find me on:</h4>
+      <a href="https://www.reddit.com/u/thetalkingkeyboard" target="_blank">Reddit: TheTalkingKeyboard</a><br>
+      <a href="https://www.linkedin.com/in/drewbtwells/" target="_blank">Linkedin: Drew Twells</a>
+      <p>Discord: BIG MILK#5443</p>
+    </div>
+    
+  </div>
+  <div style="text-align: center;">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScj68QSOS8Nad3TlnDBCurH6TCiUrwxmgJ4-ApC35h5-Y6QaA/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0" style="display: inline-block;">Loading...</iframe>
+  </div>
   <!-- //Page Content -->
     
   <!-- Footer -->
