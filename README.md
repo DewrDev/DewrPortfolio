@@ -1,4 +1,4 @@
-***Drew Twells' User Centric Frontend Development Milestone Project***
+# ***Drew Twells' User Centric Frontend Development Milestone Project***
 
 **// About this project //**
 
@@ -32,7 +32,7 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 
 [FontAwesome](https://fontawesome.com/) for Branding icons (Github; Linkedin etc.)
 
-[Mycolorspace]{https://mycolor.space/?hex=%23FFC0CB&sub=1) was used to generate a good color pallete for use across the whole site.
+[Mycolorspace](https://mycolor.space/?hex=%23FFC0CB&sub=1) was used to generate a good color pallete for use across the whole site.
 
 
 **// Helpful Stuff //**
@@ -42,3 +42,9 @@ Intended as a sort of secondary landing page, the Homepage is dedicated to displ
 [CSS Media Query AND statement](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)
 
 [Text scaling relative to viewport width or height for Media Queries](https://css-tricks.com/viewport-sized-typography/)
+
+[Embedding an image into an input button](https://stackoverflow.com/questions/8683528/embed-image-in-a-button-element)
+
+[Tinyjpg for compressing images without a discernible loss in quality](https://tinyjpg.com/)
+
+[Anthony O' Brien's User Centric Resource Pack, which provided me with various resources and useful information when working on this project](https://github.com/auxfuse/userCentricResourcePack)
